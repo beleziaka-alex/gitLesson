@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+
 }
+
+data class Person(
+    val id: Int,
+    val name: String,
+    val age: Short
+)
